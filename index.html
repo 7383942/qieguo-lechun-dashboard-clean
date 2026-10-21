@@ -2083,8 +2083,8 @@
       return '<div class="fee-row' + (active ? ' active' : '') + '">' +
         '<div class="fee-row-top"><span class="m">' + label + '</span></div>' +
         '<div class="fee-track">' +
-          '<div class="fee-seg k" style="width:' + kp + '%"></div>' +
-          '<div class="fee-seg fs" style="width:' + fp + '%"></div>' +
+          '<div class="fee-seg k" style="width:' + kp + '%">K ' + kp.toFixed(0) + '%</div>' +
+          '<div class="fee-seg fs" style="width:' + fp + '%">FS ' + fp.toFixed(0) + '%</div>' +
         '</div>' +
       '</div>';
     }).join('');
